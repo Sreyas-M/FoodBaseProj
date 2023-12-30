@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'Slidermodal.dart';
+import '../Food Call Provider/Slidermodal.dart';
 
 class FoodSingle extends StatelessWidget {
   const FoodSingle({super.key,required this.meal});

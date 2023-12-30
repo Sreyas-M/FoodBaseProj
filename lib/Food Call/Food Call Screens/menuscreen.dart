@@ -1,10 +1,8 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-
 import 'SinglePage.dart';
-import 'Slidermodal.dart';
+import '../Food Call Provider/Slidermodal.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);

@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:apicall/Slidermodal.dart';
+import 'package:apicall/Food%20Call/Food%20Call%20Provider/Slidermodal.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
-import 'categorymodal.dart';
+import '../Food Call Provider/categorymodal.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -170,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         }
                       });
                 }),
-          )
+          ),
         ],
       ),
     );
